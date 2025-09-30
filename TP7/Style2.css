@@ -1,0 +1,18 @@
+div{
+    background-color: cadetblue;
+    height: 60px;
+     width: 700px  ;
+    margin: 10px;
+}
+p{
+    color: black;
+}
+.c1{
+    background-color: crimson;
+        height: 100px;
+        width: 700px;
+        margin: 10px;
+}
+.p1{
+    color: blueviolet;
+}

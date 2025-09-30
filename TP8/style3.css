@@ -1,0 +1,53 @@
+h1{ color: white;
+background-color: orange;
+text-align: center;
+border: 20px solid orange;
+margin: 0px;
+}
+h2{color: white;
+    border: 20px solid orange;
+    background-color: orange;
+   max-width: 500px;
+   border-radius: 10px;
+   text-align: center;
+}
+.c2{
+    float: left;
+    background-color: darksalmon;
+    max-width: 500px;
+    height: 500px;
+}
+
+
+.c3{
+    float: left;
+    color: white;
+background-color: orange;
+text-align: center;
+border: 20px solid orange;
+margin-left: 50px;
+}
+
+.c4{
+    float: left;
+    background-color: darksalmon;
+    max-width: 500px;
+    height: 500px;
+}
+.c5{
+    color: white;
+background-color: orange;
+text-align: center;
+border: 20px solid orange;
+margin: 0px;
+}
+
+.c6{
+      float: left;
+    background-color: darksalmon;
+    max-width: 500px;
+    height: 500px;
+    margin-left: 90px;
+}
+
+
