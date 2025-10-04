@@ -1,53 +1,62 @@
-h1{ color: white;
-background-color: orange;
-text-align: center;
-border: 20px solid orange;
-margin: 0px;
-}
-h2{color: white;
-    border: 20px solid orange;
-    background-color: orange;
-   max-width: 500px;
-   border-radius: 10px;
-   text-align: center;
-}
-.c2{
-    float: left;
-    background-color: darksalmon;
-    max-width: 500px;
-    height: 500px;
+body{
+    background: grey;
+    margin: 0;
 }
 
-
-.c3{
-    float: left;
+h1{
     color: white;
-background-color: orange;
-text-align: center;
-border: 20px solid orange;
-margin-left: 50px;
+    background: orange;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
 }
 
-.c4{
+.block-c2{
+    height: 570px;
+    text-align: center;
+}
+
+.block-c3{
+    width: 29.5%;
+    height: 510px;
+    background: white;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 10px;
     float: left;
-    background-color: darksalmon;
-    max-width: 500px;
-    height: 500px;
 }
-.c5{
+
+.block-c3 h2{
     color: white;
-background-color: orange;
-text-align: center;
-border: 20px solid orange;
-margin: 0px;
+    background: orange;
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px;
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-left: 0;
+    margin-right: 0;
 }
 
-.c6{
-      float: left;
-    background-color: darksalmon;
-    max-width: 500px;
-    height: 500px;
-    margin-left: 90px;
+.text {
+    background: peru;
+    height: 405px;
+    width: 90%;
+    border-radius: 10px;
+    padding: 20px;
 }
 
+.block4{
+    color: white;
+    background: orange;
+    text-align: center;
+}
 
+.block4 h2{
+    display: inline-block;
+    background: yellow;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+}
