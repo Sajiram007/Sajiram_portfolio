@@ -10,34 +10,31 @@
   <h1>Formulaire d'inscription</h1>
   
   <form>
-  
-<label id="nom">Nom d'utilisateur</label>
-<input type="text"name="nom"id="nom"><br><br>
 
-<label id="mdp">Mot de passe</label>
-<input type="password"name="mdp"id="mdp"><br><br>
+    <div class="left">
+      <label class="c1" id="nom">Nom d'utilisateur</label><br><br>
+      <label class="c1" id="mdp">Mot de passe</label><br><br>
+       <label class="c3"for="mdp2">Confirmation du mot de passe</label><br><br>
+       <label class="c3"for="mail">Email</label><br><br>
+        <label class="c3"for="naissance">Date de naissance</label><br><br>
+       <label class="c4"for="genre">Homme</label><br><br>
+      <label class="c4"for="genre">Femme</label><br><br>
+      <label class="c4"for="genre">Autre</label><br><br>
+       <label class="c3" for="conditions">J'accepte les conditions générales</label>
+    </div>
 
-<label for="mdp2">Confirmation du mot de passe</label>
-<input type="password" name="mdp2" id="mdp2"><br><br>
-
-<label for="mail">Email</label>
-<input type="email" name="mail" id="mail"><br><br>
-
-<label for="naissance">Date de naissance</label>
-<input type="date" name="naissance" id="naissance"><br><br>
-
-<label for="genre">Homme</label>
-<input type="radio"name="sexe"homme,femme,autre><br><br>
-
-<label for="genre">Femme</label>
-<input type="radio"name="sexe"homme,femme,autre><br><br>
-
-<label for="genre">Autre</label>
-<input type="radio" name="sexe"homme;femme,autre><br><br>
-
-<label for="bouton">Bouton s'inscrire</label>
-<input type="submit"name="bouton" id="bouton">
-
+    <div class="right">
+      <input class="c2"type="text"name="nom"id="nom" placeholder="Nom d'utilisateur"><br><br>
+      <input class="c2"type="password"name="mdp"id="mdp"placeholder="Mot de passe"><br><br>
+       <input class="c2"type="password" name="mdp2" id="mdp2"placeholder="Confirmation mot de passe"><br><br>
+       <input class="c2"type="email" name="mail" id="mail"placeholder="Adresse mail"><br><br>
+      <input type="date" name="naissance" id="naissance"><br><br>
+      <input type="radio"name="sexe"homme,femme,autre><br><br>
+      <input type="radio"name="sexe"homme,femme,autre><br><br>
+      <input type="radio" name="sexe"homme;femme,autre><br><br>
+      <input type="checkbox"><br><br>
+      <input type="submit"name="bouton" id="bouton" value="S'inscrire">
+    </div>
   </form>
 </body>
 </html>
