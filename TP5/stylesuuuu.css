@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: pink;
+}
+form{
+   padding-top: 20px;
+    font-size: larger;
+    border-radius: 20px;
+    margin: 0 auto;
+    height: 435px;
+    width: 30%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 2);
+    background-color: lightblue;
+   
+}
+.c2{
+    border: 5px solid grey;
+    border-radius: 20px;
+    font-size: larger;
+}
+input[type="submit"]{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+}
+input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
