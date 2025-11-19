@@ -18,6 +18,7 @@ function calculer()
     var a = document.getElementById("t7").value;
     var b = document.getElementById("t8").value;
     var c = document.getElementById("t9").value;
-    var d = Number (a)* Number (b)+ Number (c);
+    var d = Number (a) + Number (b) + Number (c);
     document.getElementById("t10").value = d;
+
 }
