@@ -1,0 +1,15 @@
+.c1{
+    color: red;
+}
+body{
+    background-color: crimson;
+}
+
+.c2{
+    background-color: black;
+    color: white;
+     border: 3px solid black;
+}
+.c3{
+    background-color: white;
+}
