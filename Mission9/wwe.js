@@ -10,11 +10,14 @@ function correction() {
     const bonnesReponses = ["q1","q2", "q3", "q4", "q5", "q6", "q7", "q8", "q9", "q10"];
     let score = 0;
 
+    document.write('<a href="correction.html">Correction QCM</a>');
+
     bonnesResponses.forEach(id => {
         const caseCorrecte = document.getElementById(id);
         if (caseCorrecte && caseCorrecte.checked) {
             score++;
-        }
+        } 
     })
-    document.getElementById("score").textContent = "Tu as " + score + " / 7";
+    document.getElementById("score").textContent = "Tu as " + score + " / 10";
 }
+
